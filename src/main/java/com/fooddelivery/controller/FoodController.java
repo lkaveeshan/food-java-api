@@ -72,6 +72,4 @@ public class FoodController {
             throw new RuntimeException(e);
         }
     }
-
-
 }
