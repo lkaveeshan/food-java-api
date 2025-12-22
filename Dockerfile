@@ -1,5 +1,5 @@
 # Official OpenJDK 17 image from docket hub
-FROM openjdk:17
+FROM openjdk:17-jdk-slim
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled java application JAR file into the container
