@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -74,7 +73,7 @@ public class FoodController {
     }
 
     @GetMapping("/health")
-    public String healthCheck(@RequestBody FoodRequest request) {
+    public String healthCheck() {
         return  "health";
     }
 }
