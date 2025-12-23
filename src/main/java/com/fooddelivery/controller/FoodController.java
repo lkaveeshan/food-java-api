@@ -72,4 +72,9 @@ public class FoodController {
             throw new RuntimeException(e);
         }
     }
+
+    @GetMapping("/health")
+    public String healthCheck(@RequestBody FoodRequest request) {
+        return  "health";
+    }
 }
